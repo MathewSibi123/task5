@@ -1,8 +1,7 @@
 def check_formated(arg):
     if len(arg) > 3:
         return "fail"
-    elif arg[4].isalpha():
-        return "fail"
+
     elif arg[1].isalpha() and arg[2].isalpha():
         return "fail"
     elif arg[0].isalpha():
